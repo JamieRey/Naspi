@@ -21,3 +21,7 @@ sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript
 
 - [openmediavault](https://github.com/openmediavault/openmediavault)
 - [openmediavault-installScript](https://github.com/OpenMediaVault-Plugin-Developers/installScript)
+
+## Manuals
+
+- [Argon EON](https://cdn.shopify.com/s/files/1/0556/1660/2177/files/FOR_PRINT_EON_INSTRUCTION_MANUAL_20211215.pdf?v=1646124298)
