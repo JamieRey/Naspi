@@ -37,14 +37,32 @@ curl https://download.argon40.com/argoneon.sh | bash
 ```bash
 sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 ```
+you might need to add this flag
+```bash
+--no-check-certificate
+```
 
-# Open Media Vault Customisations
+# Customisations
+
+# Open Media Vault
 
 - Enable drives on network...
 - Set up portainer... 
 - Support homer as the homepage for the server by changing the port of omv by going to **System -> Workbench**
 
+# Portainer
+
+- Best list of images for homesetup
+
 # Resources
+
+## Commands
+```bash
+argon-config
+```
+```bash
+sudo reboot --reboot #(faster with flag)
+````
 
 ## Repositories
 
@@ -52,6 +70,10 @@ sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript
 - [openmediavault-installScript](https://github.com/OpenMediaVault-Plugin-Developers/installScript)
 - [alternative argon-eon](https://github.com/JeffCurless/argoneon)
 - [Homer](https://github.com/bastienwirtz/homer)
+
+## Forums
+
+- [r/selfhosted](https://www.reddit.com/r/selfhosted/)
 - 
 
 ## Manuals
