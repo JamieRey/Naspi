@@ -9,8 +9,12 @@
 ssh user@ip.address
 ```
 
-3. Run the [openmediavault raspberry pi install script](https://github.com/OpenMediaVault-Plugin-Developers/installScript#installation).
+3. Run the argon eon install script to provide the software to run the cases LCD screen.
+```bash
+curl https://download.argon40.com/argoneon.sh | bash
+```
 
+3. Run the [openmediavault raspberry pi install script](https://github.com/OpenMediaVault-Plugin-Developers/installScript#installation).
 ```bash
 sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 ```
