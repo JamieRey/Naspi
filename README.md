@@ -8,6 +8,19 @@
 ```bash
 ssh user@ip.address
 ```
+If you run into this error
+```bash
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+```
+then run this command below to generate a ssh key for your device on your network.
+```bash
+ssh-keygen -R <host>
+```
 
 3. Update & upgrade your packages.
 ```bash
@@ -25,6 +38,12 @@ curl https://download.argon40.com/argoneon.sh | bash
 sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 ```
 
+# Open Media Vault Customisations
+
+- Enable drives on network...
+- Set up portainer... 
+- Support homer as the homepage for the server by changing the port of omv by going to **System -> Workbench**
+
 # Resources
 
 ## Repositories
@@ -32,6 +51,8 @@ sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript
 - [openmediavault](https://github.com/openmediavault/openmediavault)
 - [openmediavault-installScript](https://github.com/OpenMediaVault-Plugin-Developers/installScript)
 - [alternative argon-eon](https://github.com/JeffCurless/argoneon)
+- [Homer](https://github.com/bastienwirtz/homer)
+- 
 
 ## Manuals
 
