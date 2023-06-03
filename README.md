@@ -2,7 +2,7 @@
 
 # Instalation Guide
 
-1. Set up with imager, enable wifi & ssh. //TODO
+1. Use the raspberry pi [imager](https://www.raspberrypi.com/software/) to install the OS, OS Lite (64 bit). Enable wifi & ssh through the advanced options on the imager by clicking on the settings cog.
 
 2. Use your wifi router to find the IP address of your NasPi. Then SSH into it.
 ```bash
