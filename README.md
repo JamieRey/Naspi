@@ -67,7 +67,7 @@ sudo usermod -aG docker username # Gives permission to user for docker
 sudo docker pull portainer/portainer-ce:latest
 ```
 ```bash
-naspi@naspi:~ $ sudo docker run --restart always -d -p 9091:9091 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:linux-arm
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
 ```
 
 - Best list of images for homesetup
