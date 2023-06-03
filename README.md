@@ -64,10 +64,10 @@ curl -sSL https://get.docker.com | sh
 sudo usermod -aG docker username # Gives permission to user for docker
 ```
 ```bash
-naspi@naspi:~ $ sudo docker run --restart always -d -p 9091:9091 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:linux-arm
+sudo docker pull portainer/portainer-ce:latest
 ```
 ```bash
-sudo docker pull portainer/portainer-ce:latest
+naspi@naspi:~ $ sudo docker run --restart always -d -p 9091:9091 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:linux-arm
 ```
 
 - Best list of images for homesetup
