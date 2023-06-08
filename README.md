@@ -52,23 +52,16 @@ sudo omv-firstaid
 
 - Default credentials are admin:openmediavault
 - Enable drives on network...
-- Set up portainer... 
+- Set up docker compose, follow [the wiki](https://wiki.omv-extras.org/doku.php?id=omv6:omv6_plugins:docker_compose) for detailed instructions.
 - Support homer as the homepage for the server by changing the port of omv by going to **System -> Workbench**
 
-# Portainer
+## NAS Setup
+- Enabled NFS
+- Set up shares under NFS
+- Find IP of client by running `TODO`
+- Connect on Finder via `CMD + Shift + K` then enter `nfs://IP/export/sharename`
 
-```bash
-curl -sSL https://get.docker.com | sh
-```
-```bash
-sudo usermod -aG docker username # Gives permission to user for docker
-```
-```bash
-sudo docker pull portainer/portainer-ce:latest
-```
-```bash
-docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
-```
+# Portainer
 
 - Best list of images for homesetup
   - [Lissy93](https://github.com/Lissy93/portainer-templates) - `https://raw.githubusercontent.com/Lissy93/portainer-templates/main/templates.json`
