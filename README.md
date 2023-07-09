@@ -65,13 +65,15 @@ sudo omv-firstaid
 - TODO
 
 ## Docker Compose
-
+- TODO
+  
 # Docker
 
 ## Plex
-
+- TODO
 
 ## Homer
+- TODO
 
 # Portainer
 
