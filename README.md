@@ -55,11 +55,23 @@ sudo omv-firstaid
 - Set up docker compose, follow [the wiki](https://wiki.omv-extras.org/doku.php?id=omv6:omv6_plugins:docker_compose) for detailed instructions.
 - Support homer as the homepage for the server by changing the port of omv by going to **System -> Workbench**
 
-## NAS Setup
+## NFS Setup
 - Enabled NFS
 - Set up shares under NFS
 - Find IP of client by running `TODO`
 - Connect on Finder via `CMD + Shift + K` then enter `nfs://IP/export/sharename`
+
+## SMB Setup
+- TODO
+
+## Docker Compose
+
+# Docker
+
+## Plex
+
+
+## Homer
 
 # Portainer
 
