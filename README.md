@@ -72,7 +72,7 @@ openmediavault
 - Go to services -> smb/cifs -> settings - Enable and configure settings
 - Go to services -> smb/cifs -> shares - Add shares from 
 
-## Docker Compose
+## Docker Compose
 - Go to system -> omv extras - Enabled omv-extras
 - Go to system -> plugins - Download docker-compose
 - Go to services -> compose
