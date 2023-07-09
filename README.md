@@ -62,6 +62,9 @@ admin
 openmediavault
 ```
 
+## Shared drive
+- Don't set a relative path, then all folders created at root of storage.
+
 ## NFS Setup
 - Enabled NFS
 - Set up shares under NFS
