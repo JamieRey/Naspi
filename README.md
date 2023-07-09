@@ -119,6 +119,22 @@ Radarr is a free and open-source movie collection manager.
 Sonarr is a free and open-source tv series manager.
 ```
 
+## Jacket
+- Go to services -> compose -> files - Add the [jacket file](docker-files/jacket).
+- 
+  ##### Description
+```
+...
+```
+
+## Transmission
+- Go to services -> compose -> files - Add the [transmission file](docker-files/transmission).
+- 
+  ##### Description
+```
+...
+```
+
 # Portainer
 
 - Best list of images for homesetup
