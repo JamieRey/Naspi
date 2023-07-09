@@ -50,7 +50,17 @@ sudo omv-firstaid
 
 # Open Media Vault
 
-- Default credentials are admin:openmediavault
+## First login
+- Type port number of device into browser of device on same network as server via http. e.g. http://192.168.1.123/
+- Login with
+```
+admin
+```
+```
+openmediavault
+```
+
+
 - Enable drives on network...
 - Set up docker compose, follow [the wiki](https://wiki.omv-extras.org/doku.php?id=omv6:omv6_plugins:docker_compose) for detailed instructions.
 - Support homer as the homepage for the server by changing the port of omv by going to **System -> Workbench**
@@ -62,10 +72,13 @@ sudo omv-firstaid
 - Connect on Finder via `CMD + Shift + K` then enter `nfs://IP/export/sharename`
 
 ## SMB Setup
-- TODO
+- Go to services -> smb/cifs -> settings - Enable and configure settings
+- Go to services -> smb/cifs -> shares - Add shares from 
 
 ## Docker Compose
-- TODO
+- Go to system -> omv extras - Enabled omv-extras
+- Go to system -> plugins - Download docker-compose
+- Go to services -> compose
   
 # Docker
 
