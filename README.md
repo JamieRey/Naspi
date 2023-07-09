@@ -81,7 +81,7 @@ openmediavault
 # Docker
 
 ## Plex
-- Go to services -> compose -> files - Add the [plex file](./docker-file/plex), then click the up button to run the container.
+- Go to services -> compose -> files - Add the [plex file](docker-files/plex), then click the up button to run the container.
 <img width="615" alt="Screenshot 2023-07-09 at 12 20 24" src="https://github.com/JamieRey/Naspi/assets/89014982/17486bca-7a7a-43d0-abe0-103be337edac">
 
 ## Homer
