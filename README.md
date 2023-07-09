@@ -81,10 +81,22 @@ openmediavault
 # Docker
 
 ## Plex
-- Go to services -> compose -> files - Add the [plex file](docker-files/plex), then click the up button to run the container.
+- Go to services -> compose -> files - Add the [plex file](docker-files/plex).
+  ##### Description
+```
+Plex is a media playback system that makes it simple to enjoy your movies, TV shows, music, pictures, and internet-based content.
+```
+- Add the relative paths from the shared drives.
+- then click the up button to run the container
 <img width="615" alt="Screenshot 2023-07-09 at 12 20 24" src="https://github.com/JamieRey/Naspi/assets/89014982/17486bca-7a7a-43d0-abe0-103be337edac">
 
 ## Homer
+- Go to services -> compose -> files - Add the [homer file](docker-files/homer).
+- Add the relative paths from the shared drives.
+  ##### Description
+```
+A dead simple static HOMepage for your servER to keep your services on hand, from a simple yaml configuration file.
+```
 - Support homer as the homepage for the server by changing the port of omv by going to **System -> Workbench**
 - TODO
 
