@@ -53,17 +53,14 @@ sudo omv-firstaid
 ## First login
 - Type port number of device into browser of device on same network as server via http. e.g. http://192.168.1.123/
 - Login with
+##### Email
 ```
 admin
 ```
+##### Password
 ```
 openmediavault
 ```
-
-
-- Enable drives on network...
-- Set up docker compose, follow [the wiki](https://wiki.omv-extras.org/doku.php?id=omv6:omv6_plugins:docker_compose) for detailed instructions.
-- Support homer as the homepage for the server by changing the port of omv by going to **System -> Workbench**
 
 ## NFS Setup
 - Enabled NFS
@@ -79,13 +76,16 @@ openmediavault
 - Go to system -> omv extras - Enabled omv-extras
 - Go to system -> plugins - Download docker-compose
 - Go to services -> compose
+- Set up docker compose, follow [the wiki](https://wiki.omv-extras.org/doku.php?id=omv6:omv6_plugins:docker_compose) for detailed instructions.
   
 # Docker
 
 ## Plex
-- TODO
+- Go to services -> compose -> files - Add the [plex file](./docker-file/plex), then click the up button to run the container.
+<img width="615" alt="Screenshot 2023-07-09 at 12 20 24" src="https://github.com/JamieRey/Naspi/assets/89014982/17486bca-7a7a-43d0-abe0-103be337edac">
 
 ## Homer
+- Support homer as the homepage for the server by changing the port of omv by going to **System -> Workbench**
 - TODO
 
 # Portainer
