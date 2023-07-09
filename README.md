@@ -103,6 +103,22 @@ A dead simple static HOMepage for your servER to keep your services on hand, fro
 - Support homer as the homepage for the server by changing the port of omv by going to **System -> Workbench**
 - TODO
 
+## Radarr
+- Go to services -> compose -> files - Add the [radarr file](docker-files/radarr).
+- 
+  ##### Description
+```
+Radarr is a free and open-source movie collection manager.
+```
+
+## Sonarr
+- Go to services -> compose -> files - Add the [sonarr file](docker-files/sonarr).
+- 
+  ##### Description
+```
+Sonarr is a free and open-source tv series manager.
+```
+
 # Portainer
 
 - Best list of images for homesetup
