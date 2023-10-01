@@ -48,6 +48,14 @@ sudo omv-firstaid
 
 # Customisations
 
+# Argon EON
+
+## Opening custom menu
+Simply run this to open the config options
+````bash
+argonone-config
+````
+
 # Open Media Vault
 
 ## First login
